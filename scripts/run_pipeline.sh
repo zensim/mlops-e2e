@@ -14,6 +14,7 @@ virtualenv -p python3 $VIRTUAL_ENV
 . $VIRTUAL_ENV/bin/activate 
 
 #Install requirements
+#pip install -r cython_constraint.txt
 pip install -r requirements.txt
 pip install sagemaker==2.148.0
 
